@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#my-navbar"
+    data-bs-offset="0"
+    class="scrollspy-example"
+    tabindex="0"
+  >
+    <header>
+      <nav
+        id="my-navbar"
+        class="navbar navbar-expand-lg fixed-top my-nav col-md bg-light"
+      >
+        <div class="container-fluid d-flex justify-content-between">
+          <a class="navbar-brand" href="#">My logo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav nav nav-pills col-md p-4 rounded mt-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-section">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div
+        class="my-main-container container-fluid d-flex justify-content-center align-items-center flex-column col-md px-5"
+      >
+        <div class="hero-container-content mx-auto">
+          <h1>I’m Joshua, thanks for stopping by!</h1>
+          <p>
+            I’m a software developer! I can help you build a product , feature
+            or website. Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me.
+          </p>
+          <a href="#contact">LET’S CONNECT</a>
+        </div>
+        <div class="hero-social d-flex">
+          <ul class="d-flex mt-3">
+            <li>
+              <a href="#"
+                ><img src="./assets/twitter.svg" alt="my twitter profile"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./assets/Linkedin-icon.svg"
+                  alt="my linkedin profile"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./assets/meduim.svg" alt="my medium profile"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./assets/git.svg" alt="my github profile"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./assets/awards.svg" alt="my awards profile"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section id="work">
+        <div class="container">
+          <div class="my-card card mb-3 p-4 my-5">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img src="./assets/tonic-desktop.png" class="w-100" alt="..." />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h2 class="card-title">Tonic</h2>
+                  <div
+                    class="container d-flex justify-content-start align-items-center"
+                  >
+                    <h3>CANOPY</h3>
+                    <img src="./assets/Counter.svg" alt="" />
+                    <h3>Back End</h3>
+                    <img src="./assets/Counter.svg" alt="" />
+                    <h3>2015</h3>
+                  </div>
+                  <p class="card-text">
+                    A daily selection of privately personalized reads; no
+                    accounts or sign-ups required.
+                  </p>
+                  <div class="container">
+                    <span class="badge">html</span>
+                    <span class="badge">css</span>
+                    <span class="badge">javaScript</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary mt-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#tonic"
+                  >
+                    See Project
+                  </button>
+
+                  <div
+                    class="modal fade"
+                    id="tonic"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Uber Navigation
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <p>
+                            A daily selection of privately personalized reads;
+                            no accounts or sign-ups required.
+                          </p>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="my-card card mb-3 p-4 my-5">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h2 class="card-title">Multi-Post Stories</h2>
+                  <div
+                    class="container d-flex justify-content-start align-items-center"
+                  >
+                    <h3>FACEBOOK</h3>
+                    <img src="./assets/Counter.svg" alt="" />
+                    <h3>Full Stack Dev</h3>
+                    <img src="./assets/Counter.svg" alt="" />
+                    <h3>2015</h3>
+                  </div>
+                  <p class="card-text">
+                    Experimental content creation feature that allows users to
+                    add to an existing story over the course of a day without
+                    spamming their friends.
+                  </p>
+                  <div class="container">
+                    <span class="badge">html</span>
+                    <span class="badge">css</span>
+                    <span class="badge">Ruby on rails</span>
+                    <span class="badge">javaScript</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary mt-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#multi-post-stories"
+                  >
+                    See Project
+                  </button>
+
+                  <div
+                    class="modal fade"
+                    id="multi-post-stories"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Uber Navigation
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <p>
+                            Experimental content creation feature that allows
+                            users to add to an existing story over the course of
+                            a day without spamming their friends.
+                          </p>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img
+                  src="./assets/multi-post-deksotp.png"
+                  class="w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="my-card card mb-3 p-4 my-5">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img
+                  src="./assets/Snapshoot Portfolio desktop.png"
+                  class="w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h2 class="card-title">Facebook 360</h2>
+                  <div
+                    class="container d-flex justify-content-start align-items-center"
+                  >
+                    <h3>FACEBOOK</h3>
+                    <img src="./assets/Counter.svg" alt="" />
+                    <h3>Full Stack Dev</h3>
+                    <img src="./assets/Counter.svg" alt="" />
+                    <h3>2015</h3>
+                  </div>
+                  <p class="card-text">
+                    A daily selection of privately personalized reads; no
+                    accounts or sign-ups required.
+                  </p>
+                  <div class="container">
+                    <span class="badge">html</span>
+                    <span class="badge">css</span>
+                    <span class="badge">Ruby on rails</span>
+                    <span class="badge">javaScript</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary mt-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#facebook"
+                  >
+                    See Project
+                  </button>
+
+                  <div
+                    class="modal fade"
+                    id="facebook"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Uber Navigation
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <p>
+                            A daily selection of privately personalized reads;
+                            no accounts or sign-ups required.
+                          </p>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="my-card card mb-3 p-4 my-5">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img src="./assets/uber.png" class="w-100" alt="..." />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h2 class="card-title">Uber Navigation</h2>
+                  <div
+                    class="container d-flex justify-content-start align-items-center"
+                  >
+                    <h3>Uber</h3>
+                    <img src="./assets/Counter.svg" alt="" />
+                    <h3>Lead developer</h3>
+                    <img src="./assets/Counter.svg" alt="" />
+                    <h3>2018</h3>
+                  </div>
+                  <p class="card-text">
+                    A smart assistant to make driving more safe, efficient, and
+                    fun by unlocking your most expensive computer: your car.
+                  </p>
+                  <div class="container">
+                    <span class="badge">html</span>
+                    <span class="badge">Ruby on rails</span>
+                    <span class="badge">css</span>
+                    <span class="badge">javaScript</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary mt-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#uber-navigation"
+                  >
+                    See Project
+                  </button>
+
+                  <div
+                    class="modal fade"
+                    id="uber-navigation"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Uber Navigation
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <p>
+                            A smart assistant to make driving more safe,
+                            efficient, and fun by unlocking your most expensive
+                            computer: your car.
+                          </p>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about-section" class="container-fluid col-sm pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2>About Myself</h2>
+              <p class="py-3">
+                Hello I’m a software developer! I can help you build a product ,
+                feature or website Look through some of my work and experience!
+                I f you like what you see and have a project you need coded,
+                don’t hestiate to contact me.
+              </p>
+              <a href="#contact">LET'S CONNECT</a>
+              <div class="hero-social mx-auto">
+                <ul class="d-flex mt-3">
+                  <li>
+                    <a href="https://twitter.com/tamuno____"
+                      ><img src="./assets/twitter.svg" alt="my twitter profile"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/joshua-blue-jack/"
+                      ><img
+                        src="./assets/Linkedin-icon.svg"
+                        alt="my linkedin profile"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://medium.com/@tamunokrobluejack"
+                      ><img src="./assets/meduim.svg" alt="my medium profile"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Tamunokuro"
+                      ><img src="./assets/git.svg" alt="my github profile"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://wellfound.com/u/joshua-blue-jack"
+                      ><img src="./assets/awards.svg" alt="my awards profile"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-outline-primary mt-5">
+                Get My Resume
+              </button>
+            </div>
+            <div class="col-md-8">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Languages
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="my-accordion-body accordion-body d-flex">
+                      <div class="my-skill-card">
+                        <div
+                          class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                        >
+                          <img src="./assets/javascript.svg" alt="" />
+                          <h3>JavaScript</h3>
+                        </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                          class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                        >
+                          <img src="./assets/python-svgrepo-com.svg" alt="" />
+                          <h3>Python</h3>
+                        </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                          class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                        >
+                          <img src="./assets/ruby-svgrepo-com.svg" alt="" />
+                          <h3>Ruby</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Frameworks
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="my-accordion-body accordion-body d-flex flex-wrap">
+                      <div class="my-skill-card">
+                        <div
+                          class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                        >
+                          <img src="./assets/django-svgrepo-com.svg" alt="" />
+                          <h3>Django</h3>
+                        </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                        class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                      >
+                        <img src="./assets/rails-svgrepo-com.svg" alt="" />
+                        <h3>RoR</h3>
+                      </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                        class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                      >
+                        <img src="./assets/react-2.svg" alt="" />
+                        <h3>React</h3>
+                      </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                        class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                      >
+                        <img src="./assets/bootstrap-5-1.svg" alt="" />
+                        <h3>React</h3>
+                      </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                        class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                      >
+                        <img src="./assets/jest-2.svg" alt="" />
+                        <h3>Jest</h3>
+                      </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                        class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                      >
+                        <img src="./assets/webpack-icon.svg" alt="" />
+                        <h3>Webpack</h3>
+                      </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                        class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                      >
+                        <img src="./assets/redux.svg" alt="" />
+                        <h3>Redux</h3>
+                      </div>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Other skills
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                  <div class="my-accordion-body accordion-body d-flex flex-wrap">
+                    <div class="my-skill-card">
+                      <div
+                      class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                    >
+                      <img src="./assets/git-icon.svg" alt="" />
+                      <h3>Git</h3>
+                    </div>
+                    </div>
+                    <div class="my-skill-card">
+                      <div
+                      class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                    >
+                      <img src="./assets/github-icon-1.svg" alt="" />
+                      <h3>Github</h3>
+                    </div>
+                    </div>
+
+                    <div class="my-skill-card">
+                      <div
+                      class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                    >
+                      <img src="./assets/visual-studio-code-1.svg" alt="" />
+                      <h3>VSCode</h3>
+                    </div>
+                    </div>
+
+                    <div class="my-skill-card">
+                      <div
+                      class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                    >
+                      <img src="./assets/postgresql.svg" alt="" />
+                      <h3>Postgresql</h3>
+                    </div>
+                    </div>
+
+
+
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="container-fluid">
+      <div
+        class="footer-items-container d-flex justify-content-center align-items-center flex-column col-sm-4 p-5"
+      >
+        <h2 class="text-center text-light">Contact me</h2>
+        <p class="mx-auto text-center text-light my-3">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+        <form class="mx-auto d-flex flex-column col-sm-4 w-auto">
+          <div class="mb-3">
+            <label for="user_name" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control rounded-0"
+              id="user_name"
+              placeholder="Alexandra Loremipsum"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="user_email" class="form-label">Email address</label>
+            <input
+              type="email"
+              class="form-control rounded-0"
+              id="user_email"
+              aria-describedby="emailHelp"
+              placeholder="alexandra@gmail.com"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="user_message" class="form-label">Message</label>
+            <textarea
+              name="user-message"
+              id="user_message"
+              cols="60"
+              rows="8"
+              placeholder="Write your message here"
+              maxlength="300"
+              minlength="100"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-light align-self-center">
+            Get in touch
+          </button>
+        </form>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
