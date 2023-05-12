@@ -1,235 +1,237 @@
 /* Global styles */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Poppins", sans-serif;
-    background-color: #e5e5e5;
-    overflow-x: hidden;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  .h1,
-  .h2,
-  .h3,
-  .h4,
-  .h5,
-  .h6,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    padding: 0;
-    margin: 0;
-  }
-  
-  h2 {
-    font-weight: 700;
-    color: #091e42;
-  }
-  
-  p {
-    color: #344563;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  /* Navbar */
-  
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 700;
+  color: #091e42;
+}
+
+p {
+  color: #344563;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+
+.my-nav {
+  padding: 25px 155px;
+}
+
+.navbar-collapse {
+  flex-grow: initial;
+}
+
+.navbar-nav {
+  gap: 32px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.nav-link {
+  color: #344563;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff;
+}
+
+/* Main styles */
+#work {
+  margin: 142px 0;
+}
+
+.my-main-container {
+  min-height: 100vh;
+  background: #fff url("../assets/Header\ bg@2x.png");
+  background-size: 90%;
+  background-position: 50%, 0;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 100px;
+}
+
+.hero-container-content,
+.hero-social {
+  width: 920px;
+}
+
+.hero-social ul {
+  gap: 19px;
+  padding: 0;
+}
+
+.hero-container-content p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+}
+
+.hero-container-content a {
+  color: #7f8cff;
+}
+
+/* Card styling */
+.my-card {
+  border-radius: 20px;
+}
+
+.my-card .container {
+  padding: 0;
+  gap: 12px;
+}
+
+.card-body h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #6b778c;
+}
+
+.my-skill-card h3 {
+  padding-top: 16px;
+  font-size: 15px;
+}
+
+.card-body h3:nth-child(1) {
+  color: #344563;
+}
+
+.badge {
+  background-color: #ebebff;
+  color: #6070ff;
+}
+
+/* About section */
+#about-section {
+  background-color: #fff;
+  border-top-right-radius: 100px;
+  padding-top: 142px;
+  min-height: 80vh;
+}
+
+.my-accordion-body {
+  gap: 10px;
+}
+
+.my-skill-card {
+  height: 122px;
+  width: 120px;
+}
+
+.my-skill-card img {
+  width: 48px;
+  height: 48px;
+}
+
+/* Footer */
+
+footer {
+  min-height: 100vh;
+  background: #fff;
+}
+
+footer.container-fluid {
+  padding: 0;
+}
+
+.footer-items-container {
+  background:
+    #6070ff url("../assets/contact\ form\ background\ shapes@2x.png")
+    no-repeat;
+  background-size: 90%;
+  background-position: 50%, 20%;
+  border-top-left-radius: 100px;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.footer-items-container p,
+form {
+  width: 447px;
+}
+
+form textarea {
+  width: 447px;
+  padding: 6px 12px;
+}
+
+form .btn {
+  color: #6070ff;
+}
+
+form label {
+  position: absolute;
+  opacity: 0;
+}
+
+@media screen and (max-width: 1000px) {
   .my-nav {
-    padding: 25px 155px;
+    padding: 0;
   }
-  
-  .navbar-collapse {
-    flex-grow: initial;
+
+  .my-nav-container {
+    margin: 0;
   }
-  
-  .navbar-nav {
-    gap: 32px;
-  }
-  
-  .navbar-brand {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    color: #6070ff;
-  }
-  
-  .nav-link {
-    color: #344563;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-  }
-  
-  .navbar-nav .nav-link.active {
-    color: #fff;
-  }
-  
-  /* Main styles */
-  #work {
-    margin: 142px 0;
-  }
+
   .my-main-container {
-    min-height: 100vh;
-    background: #fff url("../assets/Header\ bg@2x.png");
-    background-size: 90%;
-    background-position: 50%, 0;
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 100px;
+    background: #fff url("../assets/header-shapes\ mobile@2x.svg") no-repeat;
+    background-size: cover;
   }
-  
+
   .hero-container-content,
   .hero-social {
-    width: 920px;
+    width: 100%;
   }
-  
-  .hero-social ul {
-    gap: 19px;
-    padding: 0;
-  }
-  
-  .hero-container-content p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: #344563;
-  }
-  
-  .hero-container-content a {
-    color: #7f8cff;
-  }
-  
-  /*Card styling */
-  .my-card {
-    border-radius: 20px;
-  }
-  
-  .my-card .container {
-    padding: 0;
-    gap: 12px;
-  }
-  
-  .card-body h3 {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-    color: #6b778c;
-  }
-  
-  .card-body h3:nth-child(1) {
-    color: #344563;
-  }
-  
-  .badge {
-    background-color: #ebebff;
-    color: #6070ff;
-  }
-  
-  /* About section*/
-  #about-section {
+
+  .navbar-nav {
     background-color: #fff;
-    border-top-right-radius: 100px;
-    padding-top: 142px;
-    min-height: 80vh;
   }
-  
-  .my-accordion-body {
-    gap: 10px;
-  }
-  
-  .my-skill-card {
-    height: 122px;
-    width: 120px;
-  }
-  
-  .my-skill-card h3 {
-    padding-top: 16px;
-    font-size: 15px;
-  }
-  
-  .my-skill-card img {
-    width: 48px;
-    height: 48px;
-  }
-  
-  /* Footer */
-  
-  footer {
-    min-height: 100vh;
-    background: #fff;
-  }
-  
-  footer.container-fluid {
-    padding: 0;
-  }
-  
-  .footer-items-container {
-    background: #6070ff url("../assets/contact\ form\ background\ shapes@2x.png")
-      no-repeat;
-    background-size: 90%;
-    background-position: 50%, 20%;
-    border-top-left-radius: 100px;
-    min-height: 100vh;
-    width: 100vw;
-  }
-  
-  .footer-items-container p,
-  form {
-    width: 447px;
-  }
-  
+}
+
+@media screen and (max-width: 500px) {
+  label,
   form textarea {
-    width: 447px;
-    padding: 6px 12px;
+    width: 300px;
   }
-  
-  form .btn {
-    color: #6070ff;
-  }
-  
-  form label {
-    position: absolute;
-    opacity: 0;
-  }
-  @media screen and (max-width: 1000px) {
-    .my-nav {
-      padding: 0;
-    }
-  
-    .my-nav-container {
-      margin: 0;
-    }
-  
-    .my-main-container {
-      background: #fff url("../assets/header-shapes\ mobile@2x.svg") no-repeat;
-      background-size: cover;
-    }
-  
-    .hero-container-content,
-    .hero-social {
-      width: 100%;
-    }
-  
-    .navbar-nav {
-      background-color: #fff;
-    }
-  }
-  
-  @media screen and (max-width: 500px) {
-    label,
-    form textarea {
-      width: 300px;
-    }
-  }
-  
+}
