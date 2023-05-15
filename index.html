@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#my-navbar"
+    data-bs-offset="0"
+    class="scrollspy-example"
+    tabindex="0"
+  >
+    <header>
+      <nav
+        id="my-navbar"
+        class="navbar navbar-expand-lg fixed-top my-nav col-md bg-light"
+      >
+        <div class="container-fluid d-flex justify-content-between">
+          <a class="navbar-brand" href="#">My logo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav nav p-4 mt-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-section">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div
+        class="my-main-container container-fluid d-flex justify-content-center 
+        align-items-center flex-column col-md px-5 mt-5"
+      >
+        <div class="hero-container-content mx-auto">
+          <h1>I’m Joshua, thanks for stopping by!</h1>
+          <p>
+            I’m a software developer! I can help you build a product , feature
+            or website. Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me.
+          </p>
+          <a href="#contact">LET’S CONNECT</a>
+        </div>
+        <div class="hero-social d-flex">
+          <ul class="d-flex mt-3">
+            <li>
+              <a href="https://twitter.com/tamuno____"
+                ><img src="./assets/twitter.svg" alt="my twitter profile"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/joshua-blue-jack/"
+                ><img
+                  src="./assets/Linkedin-icon.svg"
+                  alt="my linkedin profile"
+              /></a>
+            </li>
+            <li>
+              <a href="https://medium.com/@tamunokrobluejack"
+                ><img src="./assets/meduim.svg" alt="my medium profile"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/Tamunokuro"
+                ><img src="./assets/git.svg" alt="my github profile"
+              /></a>
+            </li>
+            <li>
+              <a href="https://wellfound.com/u/joshua-blue-jack"
+                ><img src="./assets/awards.svg" alt="my wellfound profile"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section id="work">
+        <div class="container">
+          <div class="my-card card mb-3 p-4 my-5">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img src="./assets/todolist.png" class="w-100" alt="..." />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h2 class="card-title">JavaScript Todoo List App</h2>
+                  <div
+                    class="container d-flex flex-wrap justify-content-start align-items-center"
+                  >
+                    <h3>Microverse</h3>
+                    <img src="./assets/Counter.svg" alt="" />
+                    <h3>Front end Developer</h3>
+                    <img src="./assets/Counter.svg" alt="" />
+                    <h3>2022</h3>
+                  </div>
+                  <p class="card-text">
+                    This is an interactive todo app built with html, 
+                    css and javascript to help organize your daily activities.
+                  </p>
+                  <div class="container">
+                    <span class="badge">html</span>
+                    <span class="badge">css</span>
+                    <span class="badge">javaScript</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary mt-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#todo-list"
+                  >
+                    See Project
+                  </button>
+
+                  <div
+                    class="modal fade"
+                    id="todo-list"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog mw-100 w-75">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            JavaScript Todo List App
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="./assets/todolist.png" class="w-100" alt="..." />
+                          <div class="row">
+                            <div class="col-md-6">
+                              <p>
+                                This is an interactive todo app built with html, 
+                                css and javascript to help organize your daily activities.                              </p>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="container">
+                                <span class="badge">html</span>
+                                <span class="badge">css</span>
+                                <span class="badge">javaScript</span>
+                                <div class="d-flex pt-3">
+                                  <div class="col">
+                                  <span>
+                                    <a class="btn btn-outline-primary" href='https://tamunokuro.github.io/todo-list/dist/' target='_blank' rel="noopener noreferrer"
+                                    >See Live
+                                    <img src="./assets//live-icon.png" alt="See live project icon"
+                                  /></a>
+                                  </span>
+                                  </div>
+                                  <div class="col">
+                                  <span>
+                                    <a class="btn btn-outline-primary" href='https://github.com/Tamunokuro/todo-list' target= '_blank' rel="noopener noreferrer">See Source
+                                      <img class="" src="./assets//github-icon.png" alt="See source code icon"
+                                    /></a>
+                                  </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="my-card card mb-3 p-4 my-5">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h2 class="card-title">Budgetly</h2>
+                  <div
+                    class="container d-flex flex-wrap justify-content-start align-items-center"
+                  >
+                    <h3>Microverse</h3>
+                    <img src="./assets/Counter.svg" alt="" />
+                    <h3>Full Stack Dev</h3>
+                    <img src="./assets/Counter.svg" alt="" />
+                    <h3>2023</h3>
+                  </div>
+                  <p class="card-text">
+                    Budgetly is a Ruby on Rails mobile application for managing user expenses.
+                  </p>
+                  <div class="container">
+                    <span class="badge">html</span>
+                    <span class="badge">css</span>
+                    <span class="badge">Ruby on rails</span>
+                    <span class="badge">javaScript</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary mt-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#budgetly"
+                  >
+                    See Project
+                  </button>
+
+                  <div
+                    class="modal fade"
+                    id="budgetly"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog mw-100 w-75">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Budgetly
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="./assets/budgetly.png" class="w-100 rounded" alt="budgetly app image" />
+                          <div class="row">
+                            <div class="col-md-6">
+                              <p>
+                                Budgetly is a Ruby on Rails mobile application for managing user expenses.
+                              </p>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="container">
+                                <span class="badge">html</span>
+                                <span class="badge">css</span>
+                                <span class="badge">Ruby on rails</span>
+                                <span class="badge">javaScript</span>
+                                <div class="d-flex pt-3">
+                                  <div class="col">
+                                  <span>
+                                    <a class="btn btn-outline-primary" href='https://budgetly-app.onrender.com/' target='_blank' rel="noopener noreferrer"
+                                    >See Live
+                                    <img src="./assets//live-icon.png" alt="See live project icon"
+                                  /></a>
+                                  </span>
+                                  </div>
+                                  <div class="col">
+                                  <span>
+                                    <a class="btn btn-outline-primary" href='https://github.com/Tamunokuro/Budget-app' target= '_blank' rel="noopener noreferrer">See Source  
+                                      <img class="" src="./assets//github-icon.png" alt="See source code icon"
+                                    /></a>
+                                  </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img
+                  src="./assets/budgetly.png"
+                  class="w-100 rounded"
+                  alt="budgetly app screenshot"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="my-card card mb-3 p-4 my-5">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img
+                  src="./assets/musicsummit.png"
+                  class="w-100 rounded"
+                  alt="music summit image"
+                />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h2 class="card-title">Music Summit website</h2>
+                  <div
+                    class="container d-flex flex-wrap justify-content-start align-items-center"
+                  >
+                    <h3>Microverse</h3>
+                    <img src="./assets/Counter.svg" alt="counter image" />
+                    <h3>Front End Developer</h3>
+                    <img src="./assets/Counter.svg" alt="counter image" />
+                    <h3>2022</h3>
+                  </div>
+                  <p class="card-text">
+                    Music summit website is was developed to showcase an 
+                    annual music festival for drum lovers in Africa.
+                  </p>
+                  <div class="container">
+                    <span class="badge">html</span>
+                    <span class="badge">css</span>
+                    <span class="badge">javaScript</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary mt-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#music-summit"
+                  >
+                    See Project
+                  </button>
+
+                  <div
+                    class="modal fade"
+                    id="music-summit"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog mw-100 w-75">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Music Summit website                          
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                          <div class="modal-body">
+                            <img src="./assets/musicsummit.png" class="w-100 rounded mb-3" alt="music summit image" />
+                            <div class="row">
+                              <div class="col-md-6">
+                                <p>
+                                  Music summit website is was developed to showcase an 
+                                  annual music festival for drum lovers in Africa.
+                                </p>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="container">
+                                  <span class="badge">html</span>
+                                  <span class="badge">css</span>
+                                  <span class="badge">javaScript</span>
+                                  <div class="d-flex pt-3">
+                                    <div class="col">
+                                    <span>
+                                      <a class="btn btn-outline-primary" href='https://tamunokuro.github.io/music-summit' target='_blank' rel="noopener noreferrer"
+                                      >See Live
+                                      <img src="./assets//live-icon.png" alt="See live project icon"
+                                    /></a>
+                                    </span>
+                                    </div>
+                                    <div class="col">
+                                    <span>
+                                      <a class="btn btn-outline-primary" href='https://github.com/Tamunokuro/music-summit' target= '_blank' rel="noopener noreferrer">See Source
+                                        <img class="" src="./assets//github-icon.png" alt="See source code icon"
+                                      /></a>
+                                    </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="my-card card mb-3 p-4 my-5 w-100">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h2 class="card-title">COVID-19 News</h2>
+                  <div
+                    class="container d-flex flex-wrap justify-content-start align-items-center"
+                  >
+                    <h3>Microverse</h3>
+                    <img src="./assets/Counter.svg" alt="" />
+                    <h3>Front end Developer</h3>
+                    <img src="./assets/Counter.svg" alt="" />
+                    <h3>2023</h3>
+                  </div>
+                  <p class="card-text">
+                    COVID-19 News is a react application that shows the 
+                    latest COVID-19 news in all countries around the world.
+                  </p>
+                  <div class="container">
+                    <span class="badge">React</span>
+                    <span class="badge">React Bootstrap</span>
+                    <span class="badge">Redux</span>
+                    <span class="badge">Redux Toolkit</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary mt-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#covid-19-news"
+                  >
+                    See Project
+                  </button>
+
+                  <div
+                    class="modal fade"
+                    id="covid-19-news"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog mw-100 w-75">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            COVID-19 News
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="./assets/covid19news.png" class="w-100 rounded mb-3" alt="covid-19 news app image" />
+                          <div class="row">
+                            <div class="col-md-6">
+                              <p>
+                                COVID-19 News is a react application that shows the 
+                                latest COVID-19 news in all countries around the world. 
+                                This project was built with React bootstrap, React and Redux.
+                              </p>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="container">
+                                <span class="badge">React</span>
+                                <span class="badge">React Bootstrap</span>
+                                <span class="badge">Redux</span>
+                                <span class="badge">Redux Toolkit</span>
+                                <div class="d-flex pt-3">
+                                  <div class="col">
+                                  <span>
+                                    <a class="btn btn-outline-primary" href='https://covid-19-news.onrender.com/' target='_blank' rel="noopener noreferrer"
+                                    >See Live
+                                    <img src="./assets//live-icon.png" alt="See live project icon"
+                                  /></a>
+                                  </span>
+                                  </div>
+                                  <div class="col">
+                                  <span>
+                                    <a class="btn btn-outline-primary" href='https://github.com/Tamunokuro/COVID-19-metrics-app' target= '_blank' rel="noopener noreferrer">See Source
+                                      <img class="" src="./assets//github-icon.png" alt="See source code icon"
+                                    /></a>
+                                  </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img src="./assets//covid19news.png" class="w-100 rounded" alt="covid-19 news image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about-section" class="container-fluid col-sm pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2>About Myself</h2>
+              <p class="py-3">
+                I am a lover of building and maintaining products that leave a good user experience.
+                I have a background in computer science and an extensive knowledge and experience in 
+                Web development. I am always open to exciting opportunities to build my experience with technology so feel free to
+                reach out to me through the links below if you have an opportunity for me. Also check out my skills section to know my competencies!
+              </p>
+              <a href="#contact">LET'S CONNECT</a>
+              <div class="hero-social mx-auto">
+                <ul class="d-flex mt-3">
+                  <li>
+                    <a href="https://twitter.com/tamuno____"
+                      ><img src="./assets/twitter.svg" alt="my twitter profile"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/joshua-blue-jack/"
+                      ><img
+                        src="./assets/Linkedin-icon.svg"
+                        alt="my linkedin profile"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://medium.com/@tamunokrobluejack"
+                      ><img src="./assets/meduim.svg" alt="my medium profile"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Tamunokuro"
+                      ><img src="./assets/git.svg" alt="my github profile"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://wellfound.com/u/joshua-blue-jack"
+                      ><img src="./assets/awards.svg" alt="my wellfound profile"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-outline-primary mt-5">
+                Get My Resume
+              </button>
+            </div>
+            <div class="col-md-8">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Languages
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="my-accordion-body accordion-body d-flex">
+                      <div class="my-skill-card">
+                        <div
+                          class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                        >
+                          <img src="./assets/javascript.svg" alt="javascript logo" />
+                          <h3>JavaScript</h3>
+                        </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                          class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                        >
+                          <img src="./assets/python-svgrepo-com.svg" alt="python logo" />
+                          <h3>Python</h3>
+                        </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                          class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                        >
+                          <img src="./assets/ruby-svgrepo-com.svg" alt="ruby logo" />
+                          <h3>Ruby</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Frameworks
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="my-accordion-body accordion-body d-flex flex-wrap">
+                      <div class="my-skill-card">
+                        <div
+                          class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                        >
+                          <img src="./assets/django-svgrepo-com.svg" alt="django logo" />
+                          <h3>Django</h3>
+                        </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                        class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                      >
+                        <img src="./assets/rails-svgrepo-com.svg" alt="Ruby on Rails logo" />
+                        <h3>RoR</h3>
+                      </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                        class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                      >
+                        <img src="./assets/react-2.svg" alt="react logo" />
+                        <h3>React</h3>
+                      </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                        class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                      >
+                        <img src="./assets/bootstrap-5-1.svg" alt="bootstrap logo" />
+                        <h3>React</h3>
+                      </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                        class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                      >
+                        <img src="./assets/jest-2.svg" alt="jest logo" />
+                        <h3>Jest</h3>
+                      </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                        class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                      >
+                        <img src="./assets/webpack-icon.svg" alt="webpack logo" />
+                        <h3>Webpack</h3>
+                      </div>
+                      </div>
+                      <div class="my-skill-card">
+                        <div
+                        class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                      >
+                        <img src="./assets/redux.svg" alt="redux logo" />
+                        <h3>Redux</h3>
+                      </div>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Other skills
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                  <div class="my-accordion-body accordion-body d-flex flex-wrap">
+                    <div class="my-skill-card">
+                      <div
+                      class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                    >
+                      <img src="./assets/git-icon.svg" alt="git logo" />
+                      <h3>Git</h3>
+                    </div>
+                    </div>
+                    <div class="my-skill-card">
+                      <div
+                      class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                    >
+                      <img src="./assets/github-icon-1.svg" alt="github logo" />
+                      <h3>Github</h3>
+                    </div>
+                    </div>
+
+                    <div class="my-skill-card">
+                      <div
+                      class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                    >
+                      <img src="./assets/visual-studio-code-1.svg" alt="visual studio code logo" />
+                      <h3>VSCode</h3>
+                    </div>
+                    </div>
+
+                    <div class="my-skill-card">
+                      <div
+                      class="d-flex flex-column justify-content-start p-3 rounded bg-light"
+                    >
+                      <img src="./assets/postgresql.svg" alt="postgresql logo" />
+                      <h3>Postgresql</h3>
+                    </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="container-fluid">
+      <div
+        class="footer-items-container d-flex justify-content-center align-items-center flex-column col-sm-4 p-5"
+      >
+        <h2 class="text-center text-light">Contact me</h2>
+        <p class="mx-auto text-center text-light my-3">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+        <form class="mx-auto d-flex flex-column col-sm-4 w-auto" action="https://formspree.io/f/mzbwrodq" method="post">
+          <div class="mb-3">
+            <label for="user_name" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control rounded-0"
+              id="user_name"
+              placeholder="Alexandra Loremipsum"
+              required
+            />
+          </div>
+          <small class="error"></small>
+          <div class="mb-3">
+            <label for="user_email" class="form-label">Email address</label>
+            <input
+              type="email"
+              class="form-control rounded-0"
+              id="user_email"
+              aria-describedby="emailHelp"
+              placeholder="alexandra@gmail.com"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="user_message" class="form-label">Message</label>
+            <textarea
+              name="user-message"
+              id="user_message"
+              cols="60"
+              rows="8"
+              placeholder="Write your message here"
+              maxlength="300"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-light align-self-center">
+            Get in touch
+          </button>
+        </form>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
