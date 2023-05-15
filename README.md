@@ -55,7 +55,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Full Developer Portfolio] <a name="about-project"></a>
+# 📖 Full Developer Portfolio <a name="about-project"></a>
 
 > This is my portfolio
 
