@@ -72,9 +72,13 @@ a {
   line-height: 20px;
 }
 
-.navbar-nav .nav-link.active {
-  color: #000;
-  text-decoration: underline #6070ff 3px;
+.nav-item a {
+  text-decoration: none;
+  color: #344563;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  margin-right: 10px;
 }
 
 /* Main styles */
@@ -99,6 +103,11 @@ a {
 .hero-social ul {
   gap: 19px;
   padding: 0;
+}
+
+.hero-container-content h1 {
+  color: #172b4d;
+  font-weight: 900;
 }
 
 .hero-container-content p {
