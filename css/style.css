@@ -73,7 +73,8 @@ a {
 }
 
 .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #000;
+  text-decoration: underline #6070ff 3px;
 }
 
 /* Main styles */
@@ -205,7 +206,15 @@ form label {
   opacity: 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
+  main {
+    min-width: 160vw;
+  }
+
+  #work { 
+    min-width: 160vw;
+  }
+
   .my-nav {
     padding: 0;
   }
@@ -230,8 +239,20 @@ form label {
 }
 
 @media screen and (max-width: 500px) {
+  main {
+    min-width: 160vw;
+  }
+
+  #work { 
+    min-width: 160vw;
+  }
+
   label,
   form textarea {
     width: 300px;
+  }
+
+  .footer-items-container {
+    min-width: 160vw;
   }
 }
