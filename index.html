@@ -56,6 +56,7 @@
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
+            <span id="active"></span>
           </div>
         </div>
       </nav>
@@ -66,13 +67,15 @@
         align-items-center flex-column col-md px-5 mt-5"
       >
         <div class="hero-container-content mx-auto">
-          <h1>Hi! I’m Joshua, thanks for stopping by!</h1>
-          <p>
-            I’m a software developer! I can help you build a product , feature
-            or website. Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hestiate to
-            contact me.
-          </p>
+          <article>
+            <h1>Hi! I’m Joshua, thanks for stopping by!</h1>
+            <p>
+              I’m a software developer! I can help you build a product , feature
+              or website. Look through some of my work and experience! If you like
+              what you see and have a project you need coded, don’t hestiate to
+              contact me.
+            </p>
+        </article>
           <a href="#contact">LET’S CONNECT</a>
         </div>
         <div class="hero-social d-flex">
@@ -99,17 +102,12 @@
                 ><img src="./assets/git.svg" alt="my github profile"
               /></a>
             </li>
-            <li>
-              <a href="https://wellfound.com/u/joshua-blue-jack"
-                ><img src="./assets/awards.svg" alt="my wellfound profile"
-              /></a>
-            </li>
           </ul>
         </div>
       </div>
 
       <section id="work">
-        <div class="container">
+        <div class="container-lg">
           <div class="my-card card mb-3 p-4 my-5">
             <div class="row g-0">
               <div class="col-md-6">
@@ -218,7 +216,7 @@
           </div>
         </div>
 
-        <div class="container">
+        <div class="container-lg">
           <div class="my-card card mb-3 p-4 my-5">
             <div class="row g-0">
               <div class="col-md-6">
@@ -331,7 +329,7 @@
           </div>
         </div>
 
-        <div class="container">
+        <div class="container-lg">
           <div class="my-card card mb-3 p-4 my-5">
             <div class="row g-0">
               <div class="col-md-6">
@@ -354,7 +352,7 @@
                     <h3>2022</h3>
                   </div>
                   <p class="card-text">
-                    Music summit website is was developed to showcase an 
+                    Music summit website was developed to showcase an 
                     annual music festival for drum lovers in Africa.
                   </p>
                   <div class="container">
@@ -396,7 +394,7 @@
                             <div class="row">
                               <div class="col-md-6">
                                 <p>
-                                  Music summit website is was developed to showcase an 
+                                  Music summit website was developed to showcase an 
                                   annual music festival for drum lovers in Africa.
                                 </p>
                               </div>
@@ -444,7 +442,7 @@
           </div>
         </div>
 
-        <div class="container">
+        <div class="container-lg">
           <div class="my-card card mb-3 p-4 my-5 w-100">
             <div class="row g-0">
               <div class="col-md-6">
@@ -460,7 +458,7 @@
                     <h3>2023</h3>
                   </div>
                   <p class="card-text">
-                    COVID-19 News is a react application that shows the 
+                    COVID-19 News is a React application that shows the 
                     latest COVID-19 news in all countries around the world.
                   </p>
                   <div class="container">
@@ -503,7 +501,7 @@
                           <div class="row">
                             <div class="col-md-6">
                               <p>
-                                COVID-19 News is a react application that shows the 
+                                COVID-19 News is a React application that shows the 
                                 latest COVID-19 news in all countries around the world. 
                                 This project was built with React bootstrap, React and Redux.
                               </p>
@@ -593,14 +591,9 @@
                       ><img src="./assets/git.svg" alt="my github profile"
                     /></a>
                   </li>
-                  <li>
-                    <a href="https://wellfound.com/u/joshua-blue-jack"
-                      ><img src="./assets/awards.svg" alt="my wellfound profile"
-                    /></a>
-                  </li>
                 </ul>
               </div>
-              <a href="https://docs.google.com/document/d/1dgZcI6lnPUQ1VW2SQsYcjs64mvEiIFEH7gv4q5d-2tk/edit?usp=sharing" download class="btn btn-outline-primary mt-5" target="_blank">
+              <a href="./Joshua's Resume.pdf" download="Joshua's_Resume.pdf" class="btn btn-outline-primary mt-5" target="_blank">
                 Get My Resume
               </a>
             </div>
@@ -803,16 +796,15 @@
       >
         <h2 class="text-center text-light">Contact me</h2>
         <p class="mx-auto text-center text-light my-3">
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
+          I am always open to remote and onsite opportunities. Feel free to shoot me a message and I will try to respond
+          to it as soon as possible.
         </p>
         <form class="mx-auto d-flex flex-column col-sm-4 w-auto" action="https://formspree.io/f/mzbwrodq" method="post">
           <div class="mb-3">
             <label for="user_name" class="form-label">Name</label>
             <input
               type="text"
-              class="form-control rounded-0"
+              class="form-control rounded"
               id="user_name"
               placeholder="Name"
               required
@@ -823,7 +815,7 @@
             <label for="user_email" class="form-label">Email address</label>
             <input
               type="email"
-              class="form-control rounded-0"
+              class="form-control rounded"
               id="user_email"
               aria-describedby="emailHelp"
               placeholder="Email"
@@ -834,6 +826,7 @@
             <label for="user_message" class="form-label">Message</label>
             <textarea
               name="user-message"
+              class="form-control rounded"
               id="user_message"
               cols="60"
               rows="8"
