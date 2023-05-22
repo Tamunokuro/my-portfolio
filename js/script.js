@@ -79,7 +79,12 @@ function underlineActive() {
   });
 }
 
+// Check the initial window width
+if (window.innerWidth > 600) {
+  // Attach the event listener only if the window width is above the threshold
 window.addEventListener('scroll', underlineActive);
+}
+
 
 const navbarToggler = document.querySelector('.navbar-toggler');
 const navbarCollapse = document.querySelector('.navbar-collapse');
