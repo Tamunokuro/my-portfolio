@@ -54,47 +54,46 @@ window.addEventListener('scroll', () => {
 });
 
 // Underline navbar items
-const navLinks = document.querySelectorAll('.navbar-nav a');
-const activeIndicator = document.getElementById('active');
+// const navLinks = document.querySelectorAll('.navbar-nav a');
+// const activeIndicator = document.getElementById('active');
 
-function underlineActive() {
-  const scrollPosition = window.scrollY;
+// function underlineActive() {
+//   const scrollPosition = window.scrollY;
 
-  navLinks.forEach((link, index) => {
-    const section = document.getElementById(link.getAttribute('href').substring(1));
-    const sectionTop = section.offsetTop;
-    const sectionBottom = sectionTop + section.offsetHeight;
+//   navLinks.forEach((link, index) => {
+//     const section = document.getElementById(link.getAttribute('href').substring(1));
+//     const sectionTop = section.offsetTop;
+//     const sectionBottom = sectionTop + section.offsetHeight;
 
-    if (scrollPosition >= sectionTop - 200 && scrollPosition < sectionBottom - 200) {
-      const linkWidth = link.offsetWidth;
-      const linkLeft = link.offsetLeft;
-      activeIndicator.style.display = 'block';
-      activeIndicator.style.width = `${linkWidth + 14}px`;
-      activeIndicator.style.left = `${linkLeft - 6}px`;
-    } else if (index === 0 && scrollPosition < sectionTop - 200) {
-      // Reset active styling when scroll position is above the portfolio section
-      activeIndicator.style.width = '0';
-      activeIndicator.style.left = `${navLinks[0].offsetLeft - 6}px`;
-    }
-  });
-}
+//     if (scrollPosition >= sectionTop - 200 && scrollPosition < sectionBottom - 200) {
+//       const linkWidth = link.offsetWidth;
+//       const linkLeft = link.offsetLeft;
+//       activeIndicator.style.display = 'block';
+//       activeIndicator.style.width = `${linkWidth + 14}px`;
+//       activeIndicator.style.left = `${linkLeft - 6}px`;
+//     } else if (index === 0 && scrollPosition < sectionTop - 200) {
+//       // Reset active styling when scroll position is above the portfolio section
+//       activeIndicator.style.width = '0';
+//       activeIndicator.style.left = `${navLinks[0].offsetLeft - 6}px`;
+//     }
+//   });
+// }
 
-// Check the initial window width
-if (window.innerWidth > 600) {
-  // Attach the event listener only if the window width is above the threshold
-window.addEventListener('scroll', underlineActive);
-}
+// // Check the initial window width
+// if (window.innerWidth > 600) {
+//   // Attach the event listener only if the window width is above the threshold
+// window.addEventListener('scroll', underlineActive);
+// }
 
+// const navbarToggler = document.querySelector('.navbar-toggler');
+// const navbarCollapse = document.querySelector('.navbar-collapse');
+// const navbarCloseButton = document.querySelector('.navbar-close-button');
 
-const navbarToggler = document.querySelector('.navbar-toggler');
-const navbarCollapse = document.querySelector('.navbar-collapse');
-const navbarCloseButton = document.querySelector('.navbar-close-button');
+// navbarToggler.addEventListener('click', () => {
+//   navbarCloseButton.style.display = 'block';
+//   navbarCollapse.classList.toggle('show');
+// });
 
-navbarToggler.addEventListener('click', () => {
-  navbarCloseButton.style.display = 'block';
-  navbarCollapse.classList.toggle('show');
-});
-
-navbarCloseButton.addEventListener('click', () => {
-  navbarCollapse.classList.remove('show');
-});
+// navbarCloseButton.addEventListener('click', () => {
+//   navbarCollapse.classList.remove('show');
+// });
